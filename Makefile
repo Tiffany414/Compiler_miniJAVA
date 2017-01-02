@@ -8,6 +8,7 @@ antlr4=java -jar /usr/local/lib/antlr-4.5.1-complete.jar
 grun=java org.antlr.v4.gui.TestRig
 
 
+
 run: $(CLASSFILE)
 	$(grun) $(TASK) $(PROG) $(EXPR)
 
@@ -22,6 +23,8 @@ $(JAVAFILE): $(SRC)
 
 gen: $(SRC)
 	$(antlr4) $(SRC)
+
+
 
 .PHONY: clean
 clean:
