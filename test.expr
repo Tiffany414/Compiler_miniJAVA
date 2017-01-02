@@ -210,7 +210,8 @@ class Tree{
     boolean ntb ;
     int auxkey1 ;
     int auxkey2 ;
-    
+  
+  
     if (c_node.GetHas_Left()) 
         ntb = this.RemoveLeft(p_node,c_node) ;
     else 
