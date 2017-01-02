@@ -24,6 +24,7 @@ gen: $(SRC)
 	$(antlr4) $(SRC)
 
 
+
 .PHONY: clean
 clean:
 	-@rm -rf $(CLASSFILE) $(JAVAFILE) *.tokens
