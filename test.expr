@@ -203,7 +203,6 @@ class Tree{
     return found ;
     }
 
-
     // Check if the element to be removed will use the
     // righ or left subtree if one exists
     public boolean Remove(Tree p_node, Tree c_node){
